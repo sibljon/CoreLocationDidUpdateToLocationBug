@@ -49,6 +49,15 @@
     NSLog(@"- [CLLocationManager location]: %@", manager.location);
 }
 
+//- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+//{
+//    for (CLLocation *location in locations)
+//    {
+//        NSLog(@"Current location: %@", locations);
+//    }
+//    NSLog(@"- [CLLocationManager location]: %@", manager.location);
+//}
+
 #pragma mark - Notifications
 
 - (void)appWillEnterForeground:(NSNotification *)notification
